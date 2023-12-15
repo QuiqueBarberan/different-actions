@@ -1,0 +1,6 @@
+name: Check SARIF
+description: Checks a SARIF file to see if certain queries were run and others were not run.
+inputs:
+runs:
+  using: node20
+  main: index.js
